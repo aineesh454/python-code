@@ -1,4 +1,4 @@
-word = input("Enter lines starting with: ")
+word = input("Enter lines starting with to skip them: ")
 file = open("sample.txt", "r")
 lines = file.readlines()
 for line in lines:
